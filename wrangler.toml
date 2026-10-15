@@ -1,7 +1,11 @@
+# HARUS sama dengan nama Worker yang dipilih di dashboard Cloudflare.
 name = "openinapp"
 main = "src/index.js"
-compatibility_date = "2025-01-01"
+compatibility_date = "2026-10-01"
+workers_dev = true
 
 [vars]
-# Domain tujuan yang boleh dipakai (pisahkan dengan koma). Subdomain ikut otomatis.
-ALLOWED_HOSTS = "tokoanda.com"
+# Host persis, tanpa https:// dan tanpa path. Pisahkan dengan koma.
+# Contoh wildcard jika diperlukan: "gsolusi.id,*.gsolusi.id"
+# Default sementara disesuaikan dengan GSolusi. Ganti jika tujuan iklan berbeda.
+ALLOWED_HOSTS = "gsolusi.id,www.gsolusi.id"
