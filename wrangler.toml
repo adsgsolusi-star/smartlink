@@ -1,0 +1,7 @@
+name = "openinapp"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+# Domain tujuan yang boleh dipakai (pisahkan dengan koma). Subdomain ikut otomatis.
+ALLOWED_HOSTS = "tokoanda.com"
